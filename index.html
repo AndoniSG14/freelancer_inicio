@@ -6,113 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/style.css" as="style">
-    <link href="css/style.css" rel="stylesheet" >
-  </head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
 <body>
+    <!--Menu de Contenido-->
     <header>
         <h1 class="titulo">Andoni Sánchez <span>Freelancer</span> </h1>
     </header>
+    <div class="nav-bg">
+        <nav class="navegacionPrincipal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre Mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactar </a>
+        </nav>
+    </div>
+    <!--Banner-->
+    <section class="hero">
+        <div class="contenedor-hero">
+            <h2> Diseño y Desarrollo Web Freelancer</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-location" width="80"
+                    height="80" viewBox="0 0 24 24" stroke-width="2" stroke="#ffec00" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
+                </svg>
 
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Sobre Mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contactar </a>
-    </nav>
+                <p>Autlan de Navarro, Jalisco</p>
+            </div>
 
-    <section>
-        <h2> Diseño y Desarrollo Web Freelancer</h2>
-
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-location" width="80" height="80"
-            viewBox="0 0 24 24" stroke-width="2" stroke="#ffec00" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
-        </svg>
-
-        <p>Autlan de Navarro, Jalisco</p>
-        <a href="#">Contactar</a>
+            <a class="boton" href="#">Contactar</a>
+        </div>
     </section>
 
-    <main>
+
+    <!--Pequeña info importante-->
+    <main class="contenedor sombra">
         <h2>Mis servicios</h2>
+        <div class="servicios">
+
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="12" r="9" />
+                        <line x1="3.6" y1="15" x2="14.15" y2="15" />
+                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+                        <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ?
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Desarrollo de Software</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop"
+                        width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ?
+                </p>
+            </section>
+
+            <section class="servicio">
+                <h3>Editor</h3>
+                <div class="iconos">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="40"
+                        height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="4" x2="8" y2="20" />
+                        <line x1="16" y1="4" x2="16" y2="20" />
+                        <line x1="4" y1="8" x2="8" y2="8" />
+                        <line x1="4" y1="16" x2="8" y2="16" />
+                        <line x1="4" y1="12" x2="20" y2="12" />
+                        <line x1="16" y1="8" x2="20" y2="8" />
+                        <line x1="16" y1="16" x2="20" y2="16" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ?
+                </p>
+            </section>
+        </div>
+
+        <!--CONTACTO-->
         <section>
-            <h3>Diseño Web</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="40" height="40"
-                viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <circle cx="12" cy="12" r="9" />
-                <line x1="3.6" y1="15" x2="14.15" y2="15" />
-                <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
-                <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
-                <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
-                <line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ? </p>
+            <h2>Contacto</h2>
 
-        </section>
-
-        <section>
-            <h3>Desarrollo de Software</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <line x1="3" y1="19" x2="21" y2="19" />
-                <rect x="5" y="6" width="14" height="10" rx="1" />
-              </svg>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ? </p>
-
-        </section>
-
-        <section>
-            <h3>Editor</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-movie" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <rect x="4" y="4" width="16" height="16" rx="2" />
-                <line x1="8" y1="4" x2="8" y2="20" />
-                <line x1="16" y1="4" x2="16" y2="20" />
-                <line x1="4" y1="8" x2="8" y2="8" />
-                <line x1="4" y1="16" x2="8" y2="16" />
-                <line x1="4" y1="12" x2="20" y2="12" />
-                <line x1="16" y1="8" x2="20" y2="8" />
-                <line x1="16" y1="16" x2="20" y2="16" />
-              </svg>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque est laborum explicabo bea ? </p>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Contactame llenando los Campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Ingresa tu Nombre">
+                        </div>
+                        <div class="campo">
+                            <label>Telefono</label>
+                            <input type="tel" placeholder="Ingresa tu telefono">
+                        </div>
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input type="email" placeholder="Ingresa tu Correo">
+                        </div>
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-text"></textarea>
+                        </div>
+                    </div>
+                    <div class="enviar">
+                        <input class="boton" href="#" type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
-
-    <section>
-        <h2>Contacto</h2>
-
-        <form>
-            <fieldset>
-                <legend>Contactame llenando los Campos</legend>
-                <div>
-                    <label>Nombre</label>
-                    <input type="text" placeholder="Ingresa tu Nombre">
-                </div>
-                <div>
-                    <label>Telefono</label>
-                    <input type="tel" placeholder="Ingresa tu telefono">
-                </div>
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="INgresa tu Correo">
-                </div>
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados Andoni Sanchez</p>
     </footer>
 
